@@ -1,0 +1,20 @@
+{
+  "name":"Creator Commentary",
+  "description":"Link to an MP3 to play over a YouTube video. For creator commentary tracks or secret tracks for fans. Keep your content ad-friendly by putting explicit or algorithm unfriendly content in a fans-only track through this extension.",
+  "version":"0.1",
+  "manifest_version":3,
+  "action": {},
+  "background":{
+    "service_worker":"background.js"
+  },
+  "permissions":[
+    "activeTab",
+    "scripting"
+  ],
+  "icons": {
+    "16": "/images/cc16.png",
+    "32": "/images/cc32.png",
+    "48": "/images/cc48.png",
+    "128": "/images/cc128.png"
+  }
+}
